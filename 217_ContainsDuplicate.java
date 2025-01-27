@@ -1,3 +1,6 @@
+TC -> O(NLogN)
+SC -> O(1)
+
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         Arrays.sort(nums);
